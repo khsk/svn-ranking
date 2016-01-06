@@ -15,5 +15,8 @@
 /log/*
 !/log/.keep
 /tmp
+
+# 量が多いため除外。クローン時は再度インストールする。
 /vendor/bundle
-/vendor/bundle
+# ファイルはコミット済み。認証情報を公開しないように対象外に
+/config/initializers/svn_auth.rb
