@@ -8,9 +8,6 @@
 # コミット数が多いので、時間がかかる。特に月末では数十分の実行時間が見込まれる。
 # svnへの接続は、公式のswigを検討したが、バージョンが古すぎるため使えなかった。
 
-require "commit_collection"
-require 'date'
-
 today              = Date.today.to_s
 beginning_of_month = Date.today.beginning_of_month.to_s
 
