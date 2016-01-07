@@ -1,0 +1,32 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.ranking {
+	display: table;
+	table-layout: fixed;
+	margin-left: 10px;
+}
+
+.unit {
+	display: table-row;
+	background: #FFF
+}
+
+.rank, .user, .commit-count {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 2.5px 5px;
+}
+
+.first-rank {
+	background: #e6b422;
+}
+
+.second-rank {
+	background: #EFEFEF;
+}
+
+.third-rank {
+	background: #8C4841;
+}
